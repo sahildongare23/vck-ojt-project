@@ -4,7 +4,7 @@ import './Courses.css'
 const Courses = () => {
   return (
     <div className="content">
-      <div style={{marginTop:'50px',maxHeight:'84vh'}} className="page-container">
+      <div style={{marginTop:'50px',maxHeight:'78vh'}} className="page-container">
         <h1 style={{textAlign:'center',color:'#007bff'}} className='animate-fade-in-up'>Our Academic Programs</h1>
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs
