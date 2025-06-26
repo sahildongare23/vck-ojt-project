@@ -6,15 +6,15 @@ import './Home.css'; // Make sure to include this CSS file
 const Home = () => {
   return (
     <div className="content">
-      <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container ">
+      <div style={{ marginTop: "40px", maxHeight: '78vh' }} className="page-container ">
         <div className="hero-section">
-          
+          <div className="hero-image-container">
+            <img alt="vivekanand college campus" className="hero-banner-image" src="src\assets\vck.png"></img>
+          </div>
           <div className="hero-overlay-text ">
-            <h1 style={{color:'white'}} className='animate-fade-in-up'>Welcome to Vivekanand College!</h1>
-            <p>Your journey to excellence starts here.</p>
-            <Link className="btn bg-success hero-btn" to="/admissions" data-discover="true">
-              Apply Now!
-            </Link>
+            <h1 className='animate-fade-in-up' style={{color:'white'}}>Welcome to Vivekanand College!</h1>
+            <p className="hero-subtext">Your journey to excellence starts here</p>
+            <Link className="hero-btn" to="/admissions" data-discover="true">Apply Now</Link>
           </div>
         </div>
 
