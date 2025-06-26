@@ -1,17 +1,18 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 import './Home.css'; // Make sure to include this CSS file
 
 const Home = () => {
   return (
     <div className="content">
-      <div style={{marginTop:'76px',maxHeight:'78vh'}} className="page-container  p-4">
+      <div style={{marginTop:'60px',maxHeight:'84vh'}} className="page-container ">
         <div className="hero-section">
           
           <div className="hero-overlay-text ">
             <h1 style={{color:'white'}} className='animate-fade-in-up'>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
-            <Link className="btn hero-btn" to="/admissions" data-discover="true">
+            <Link className="btn bg-success hero-btn" to="/admissions" data-discover="true">
               Apply Now!
             </Link>
           </div>
@@ -58,6 +59,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      {/* <Chatbot/> */}
     </div>
   );
 };
