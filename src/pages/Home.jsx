@@ -9,7 +9,7 @@ const Home = () => {
       <div style={{ marginTop: "40px", maxHeight: '78vh' }} className="page-container ">
         <div className="hero-section">
           <div className="hero-image-container">
-            <img alt="vivekanand college campus" className="hero-banner-image" src="/vck.png"></img>
+            <img alt="vivekanand college campus" className="hero-banner-image" src="/images/vck.png"></img>
           </div>
           <div className="hero-overlay-text ">
             <h1 className='animate-fade-in-up' style={{color:'white'}}>Welcome to Vivekanand College!</h1>
