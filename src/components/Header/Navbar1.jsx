@@ -40,7 +40,7 @@ const Navbar1 = () => {
 
         {/* Offcanvas for mobile */}
         <div
-          className="offcanvas offcanvas-end d-md-none text-bg-primary"
+          className="offcanvas offcanvas-end d-md-none w-50 bg-light"
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -49,7 +49,7 @@ const Navbar1 = () => {
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button
               type="button"
-              className="btn-close btn-close-white"
+              className="btn-close btn-close-dark"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
@@ -67,7 +67,7 @@ const Navbar1 = () => {
                   <NavLink
                     to={item.path}
                     className={({ isActive }) =>
-                      isActive ? 'nav-link active fw-bold text-white' : 'nav-link text-white'
+                      isActive ? 'nav-link active fw-bold text-dark' : 'nav-link text-dark'
                     }
                     onClick={closeOffcanvas}
                   >
